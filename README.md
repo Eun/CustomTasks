@@ -2,8 +2,9 @@ CustomTasks
 ===========
 
 CustomTasks Plugin for Sublime Text.
-With this plzugin you can manage your Todo List in an confortable way.
-Just goto a line and hit F8 it will automaticly crate a Check for you.
+
+With this plugin you can manage your todo list in an confortable way.
+Just goto a line and hit F8 it will automaticly crate a task for you.
 
 Features:
 ===========
@@ -31,7 +32,8 @@ Sample:
 Custom:
 ===========
 Add your indicators by modifing the CustomTasks.py.
-Do not forget to add the colors
+
+Do not forget to add the colors!
 
 
 
