@@ -1,0 +1,13 @@
+{
+	"schema_version": "1.0",
+	"packages": [
+		{
+			"name": "CustomTasks",
+			"description": "Custom Tasks and Todo Marks",
+			"author": "Eun",
+			"homepage": "https://github.com/Eun/CustomTasks",
+			"last_modified": "2011-09-16 19:38:31",
+			"platforms": "*"
+		}
+	]
+}
