@@ -1,5 +1,5 @@
 {
-	"schema_version": "1.0",
+	"schema_version": "1.2",
 	"packages": [
 		{
 			"name": "CustomTasks",
@@ -7,7 +7,14 @@
 			"author": "Eun",
 			"homepage": "https://github.com/Eun/CustomTasks",
 			"last_modified": "2011-09-16 19:38:31",
-			"platforms": "*"
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0",
+						"url": "https://nodeload.github.com/Eun/CustomTasks/zipball/master"
+					}
+				]
+			}
 		}
 	]
 }
