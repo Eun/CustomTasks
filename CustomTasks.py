@@ -2,7 +2,7 @@
 ################## SETTINGS ##################################################
 SETTINGS = {
   "symbols": [u"[ ]", u"[+]", u"[-]"],
-  "colors":  ["keyword", "entity.name.function.CustomTasks", "comment.line.number-sign.CustomTasks"],
+  "colors":  ["keyword", "entity.name.function", "comment.line.number-sign"],
   "title-color": "string"
 } 
 ## Note:                                                                    ##
@@ -19,7 +19,7 @@ fo.write('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple
 max = len(SETTINGS['symbols'])
 for i in range(max):
     fo.write('<dict><key>comment</key><string>'+str(i)+'</string><key>match</key><string>')
-    fo.write('^(\s+)?'+ SETTINGS['symbols'][i] +'(.*)?$')
+    fo.write('^(\s+)?'+ re.escape(SETTINGS['symbols'][i]) +'(.*)?$')
     fo.write('</string><key>name</key><string>'+SETTINGS['colors'][i]+'</string></dict>')
 fo.write('<dict><key>comment</key><string>Titles</string><key>match</key><string>^(\s+)?(.*)?:$</string><key>name</key><string>'+SETTINGS['title-color']+'</string></dict></array><key>scopeName</key><string>text.CustomTasks</string><key>uuid</key><string>8c6182de-c8b7-428f-85ae-d75b70e48b71</string></dict></plist>');
 fo.close();
