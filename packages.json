@@ -6,11 +6,11 @@
 			"description": "Custom Tasks and Todo Marks",
 			"author": "Eun",
 			"homepage": "https://github.com/Eun/CustomTasks",
-			"last_modified": "2011-09-16 19:38:31",
+			"last_modified": "2012-10-02 20:13:24",
 			"platforms": {
 				"*": [
 					{
-						"version": "1.0",
+						"version": "1.1",
 						"url": "https://nodeload.github.com/Eun/CustomTasks/zipball/master"
 					}
 				]
