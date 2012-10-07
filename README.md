@@ -39,6 +39,9 @@ Color format is:
 
 You can add as many indicators as you like.
 
+Please Note:
+you might have to restart Sublime Text in order to see the changes.
+
 
 
 
