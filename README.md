@@ -31,7 +31,7 @@ Sample:
 
 Custom:
 ===========
-Add your indicators amd colors by modifing the settings.py in your Custom Tasks dir.
+Add your indicators amd colors by modifing the `settings.py` in your Custom Tasks dir.
 
 Color format is:
 
